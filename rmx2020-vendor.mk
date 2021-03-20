@@ -25,8 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx2020/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/realme/rmx2020/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/rmx2020/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/realme/rmx2020/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so
-
+    vendor/realme/rmx2020/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
+    vendor/realme/rmx2020/proprietary/lib/libdpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpframework.so \
+    vendor/realme/rmx2020/proprietary/lib64/libdpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpframework.so
+	
 PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
